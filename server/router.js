@@ -9,6 +9,9 @@ module.exports = function(app) {
   app.get('/', requireAuth, function(req, res) {
     res.send({ message: 'Super secret code is ABC123' });
   });
+  app.get('/home', function(req, res) {
+    res.send({ message: 'API TEest' });
+  });
   app.post('/signin', requireSignin, Authentication.signin);
   app.post('/signup', Authentication.signup);
 }
