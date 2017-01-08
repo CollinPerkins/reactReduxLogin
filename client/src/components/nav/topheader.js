@@ -44,18 +44,18 @@ class TopHeader extends Component {
                 <Link to="/" className="">About Me</Link>
               </li>
               <li>
-                <Link to="/" className="">Experience</Link>
+                <Link to="/experience" className="">Experience</Link>
               </li>
               <li>
-                <Link to="/" className="">Portfolio</Link>
+                <Link to="/portfolio" className="">Portfolio</Link>
               </li>
               <li>
-                <Link to="/" className="">Contact Me</Link>
+                <Link to="/contactme" className="">Contact Me</Link>
               </li>
             </ul>
             <ul className="pull-right">
               <li>
-                <Link to="/" className="">Blog</Link>
+                <Link to="/blog" className="">Blog</Link>
               </li>
               <li>
                 <Link to="/" className="">Resume</Link>
